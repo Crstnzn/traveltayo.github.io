@@ -1,0 +1,436 @@
+.faq{
+    margin: 20px;
+    background-color: #FFEB9C;
+    padding: 5px;
+    border-radius: 20px;
+    box-shadow: 3px 3px black;
+  }
+   
+  .faq div{
+    display: flex;
+    justify-content: space-between;
+    box-sizing: border-box;
+    padding: 10px;
+    border-radius: 20px;
+    background-color: #FFE169;
+  }
+   
+  h4{
+    margin-left: 30px;
+    font-weight: 500;
+    color: #4D3418;
+  }
+   
+  .togbut {
+    background: none;
+    border: none;
+    font-weight: bold;
+    font-size: 40px;
+    color: #87643D;
+    cursor: pointer;
+  }
+   
+  .faqs-container {
+    position: relative;
+  }
+   
+  .header {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    background-color: white;
+    height: 70px;
+    z-index: 100;
+  }
+   
+  .head{
+    display: flex; /* Use flexbox for layout */
+    align-items: center; /* Align items vertically */
+    justify-content: space-between;
+  }
+   
+  .header-logo {
+    position: absolute;
+    width: 75px;
+    height: 50px;
+    top: 50%;
+    left: 30px;
+    transform: translateY(-50%);
+  }
+   
+  .header-logoname {
+    position: absolute;
+    width: 180px;
+    height: 45px;
+    top: 55%;
+    left: 105px;
+    transform: translateY(-50%);
+  }
+   
+  .headeropt{
+  position: absolute;
+  display: flex;
+  flex-direction: row;
+  top: 50%;
+  left: 50%;
+  transform: translateY(-50%);
+  }
+   
+  .bold{
+    font-weight: 900;
+    color: #4D3418;
+  }
+   
+  .profcon{
+    display: flex;
+    align-items: center;
+    margin-left: 87%;
+  }
+   
+  .profcon img {
+    width: 65px;
+    height: 40px;
+    margin-left: 20px;
+  }
+   
+  .main {
+    flex: 1;
+    overflow-y: auto;
+    background-color: #FFD67A ;
+    width: 100%;
+    height: 100%;
+    padding-top: 50px;
+  }
+   
+  .faqhead{
+    text-align: center;
+  }
+   
+  .faqhead h1{
+    font-size: 50px;
+    color: #4D3418;
+    margin-bottom: 0;
+  }
+   
+  .faqhead h6 {
+    font-size: 16px;
+    margin-top: 0;
+  }
+   
+  .faqs p{
+    text-indent: 40px;
+  }
+   
+  /* AIRLINE BOOKING */
+  .airmain{
+    background-color: #FFD67A;
+    width: 100%;
+    height: 100%;
+  }
+   
+  .airlineimg{
+    width: 100%;
+    height: 100%;
+    margin-top: 70px;
+    /* display: block; */
+    /* top: 100px; */
+  }
+   
+  .airtxt{
+      position: absolute;
+      top: 12%;
+      left: 50%;
+      transform: translateX(-50%);
+      color: white;
+      font-size: 500%;
+      text-shadow: 2px 2px 5px black;
+  }
+   
+  .txtandfill {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 20px;
+  }
+   
+  .left {
+    width: 50%;
+    padding: 20px;
+  }
+   
+  .left p{
+    color: #87643D;
+    font-size: 25px;
+  }
+   
+  .right {
+    width: 40%;
+    height: 50%;
+    background-color: white;
+    opacity: 70%;
+    padding: 0 30px 10px 30px;
+    border-radius: 3%;
+    margin-right: 20px;
+    margin-bottom: 20px;
+  }
+   
+  .right h5, .remrek h5{
+    color: #87643D;
+    font-size: 25px;
+    margin-top: 10px;
+    margin-bottom: 5px;
+    font-weight: 700;
+  }
+   
+  .fillname{
+    display: flex;
+    flex-direction: column;
+  }
+   
+  .fillemail{
+    margin-top: 20px;
+  }
+   
+  .fillnumber{
+    margin-top: 20px;
+    margin-bottom: 20px;
+  }
+   
+  .fillnumber1{
+    margin-top: 20px;
+    margin-bottom: 20px;
+    display: flex;
+    align-items: center;
+  }
+   
+  .fillnumber1 input{
+    background-color: white;
+    width: 10%;
+    height: 20px;
+    margin-left: 10px;
+    margin-top: 7px;
+  }
+   
+  .right h3{
+    color: #87643D;
+    margin-top: 1%;
+    margin-bottom: 0%;
+    font-weight: 500;
+  }
+   
+  .right input{
+    background-color: white;
+    width: 100%;
+    height: 30px;
+  }
+   
+  .txtandsubmit {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 20px;
+  }
+   
+  .travelinfo{
+      width: 40%;
+      height: 50%;
+      background-color: white;
+      opacity: 70%;
+      padding: 0 30px 10px 30px;
+      border-radius: 30px;
+      margin-bottom: 20px;
+      margin-left: 50px;
+  }
+   
+  .travelinfo h5{
+    color: #87643D;
+    font-size: 25px;
+    margin-top: 10px;
+    margin-bottom: 5px;
+    font-weight: 700;
+  }
+   
+  .dateselec {
+    display: flex;
+    justify-content: space-between;
+  }
+   
+  .datesel {
+    width: 48%; /* Adjust the width as needed */
+  }
+   
+  .travelinfo h3{
+    margin-top: 10px; /* Adjust spacing */
+    margin-bottom: 0%;
+    color: #87643D;
+    font-weight: 500;
+  }
+   
+  .datesel input {
+    width: 100%;
+    height: 30px;
+  }
+   
+  .filldestination input, .fillairport input{
+    background-color: white;
+    width: 100%;
+    height: 30px;
+  }
+   
+  .fillnumber1 h3{
+    margin-top: 0;
+  }
+   
+  .remrek{
+    width: 30%;
+    height: 50%;
+    background-color: white;
+    opacity: 70%;
+    padding: 0 30px 10px 30px;
+    border-radius: 30px;
+    margin-right: 180px;
+    margin-bottom: 20px;
+  }
+  .subcasbtn {
+    position: absolute;
+    bottom: 20px;
+    right: 20px;
+    display: flex;
+  }
+   
+  .subcasbtn button {
+    background-color: #FFF7A7;
+    color: #87643D;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    margin-bottom: 10px;
+  }
+   
+  .subcasbtn button:hover {
+    background-color: #F5CCA0;
+  }
+   
+  .subbtn{
+    margin-left: 20px;
+  }
+   
+  .fill textarea{
+    width: 100%;
+    height: 270px;
+  }
+   
+  /* TRAVEL INSURANCE */
+   
+  .instxt{
+    position: absolute;
+    top: 70px;
+    left: 50%;
+    transform: translateX(-50%);
+    color: white;
+    font-size: 85px;
+    text-shadow: 2px 2px 5px #ffffff;
+    text-align: center;
+  }
+   
+  .filltravins textarea{
+    width: 100%;
+    height: 40px;
+  }
+   
+  /* EDIT PROFILE */
+  .left1 {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    width: 30%;
+    height: 100%;
+    padding: 20px;
+    margin-top: 10%;
+  }
+   
+  .epTxt {
+    color: #4D3418;
+    margin-bottom: 10px;
+  }
+   
+  .profPic {
+    width: 50%;
+    height: 50%;
+    margin-top: 1%;
+  }
+   
+  .changebtn {
+    background-color: #FFF7A7;
+    color: #87643D;
+    padding: 10px 20px;
+    border: none;
+    font-size: 20px;
+    border-radius: 5px;
+    cursor: pointer;
+    margin-top: 5%;
+  }
+   
+  .right1 {
+    width: 70%;
+    height: 100%;
+    padding: 20px;
+  }
+   
+  .nameInput, .nameInput1 {
+    display: flex;
+    justify-content: space-between;
+  }
+   
+  .nameInput div, .nameInput1 div {
+    width: 48%; /* Adjust the width as needed */
+  }
+   
+  .nameInput1{
+    padding-bottom: 50px;
+  }
+   
+  .right1 h3 {
+    margin-bottom: 8px;
+    color: #87643D;
+    font-weight: 500;
+  }
+   
+  .right1 input {
+    width: 100%;
+    height: 30px;
+    border-color: #87643D;
+    background-color: #FFD67A;
+  }
+   
+  .txtandfill h1{
+    font-size: 35px;
+    color: #4D3418;
+    margin-bottom: 3px;
+  }
+   
+  .bITxt{
+    margin-top: 50px;
+  }
+   
+  .button-wrapper1 {
+    position: absolute;
+    right: 50px;
+    bottom: 1%;
+  }
+   
+  .button-wrapper1 button{
+    background-color: #FFF7A7;
+    color: #87643D;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    margin-bottom: 10px;
+  }
+   
+  .button-wrapper1 button:hover, .changebtn:hover{
+    background-color: #F5CCA0;
+  }
+  

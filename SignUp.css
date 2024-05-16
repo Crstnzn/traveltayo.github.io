@@ -1,0 +1,115 @@
+.ContainerSign{
+    background-color: #ffd67a;
+    height: 2000px; 
+    width: 100%; 
+    display: flex;
+    justify-content: center;
+
+}
+
+.logostyle{
+    background-color: #ffd67a;
+    height: 100%;
+    width: 100ww;
+}
+.logo{
+    height: 250px;
+    width: 390px;
+    align-self: flex-start;
+    position: absolute;
+    top: 40%;
+    left: 5%;
+    transform: translateY(-50%);
+}
+.logo2{
+    height: 200px;
+    top: 70%;
+    left: 7%;
+    position: absolute;
+    align-self: flex-start;
+    transform: translateY(-60%);
+}
+.containerDetails{
+    height: 480px;
+    width: 650px;
+    background-color: antiquewhite;
+    right: 15%;
+    top: 10%;
+    position: absolute;
+    align-self: flex-end;
+    border-radius: 4%;
+    
+}
+.text{
+    font-size: 30px;
+    color: #4D3418;
+    font-weight: bold;
+    top: 1%;
+    align-self: flex-start;
+    position: absolute;
+    text-align: justify;
+    margin-left: 3%;
+    margin-top: 1%;
+}
+.text1{
+    font-size: 20px;
+    color: #4D3418;
+    top: 1%;
+    align-self: flex-start;
+    position: absolute;
+    text-align: justify;
+    margin-left: 3%;
+    margin-top: 7%;
+}
+.fn{
+    font-size: 15px;
+    color: #4D3418;
+    top: 1%;
+    align-self: flex-start;
+    position: absolute;
+    text-align: justify;
+    margin-left: 3%;
+    margin-top: 15%;
+    border-radius: 4%;
+}
+.ln{
+    font-size: 15px;
+    color: #4D3418;
+    top: 1%;
+    right: 15%;
+    align-self: flex-start;
+    position: absolute;
+    text-align: justify;
+    margin-left: 3%;
+    margin-top: 15%;
+    border-radius: 4%;
+}
+.addr{
+    font-size: 15px;
+    color: #4D3418;
+    top: 1%;
+    align-self: flex-start;
+    position: absolute;
+    text-align: justify;
+    margin-left: 3%;
+    margin-top: 20%;
+    border-radius: 4%;
+}
+.email{
+    font-size: 15px;
+    color: #4D3418;
+    top: 8%;
+    align-self: flex-start;
+    position: absolute;
+    text-align: justify;
+    margin-left: 3%;
+    margin-top: 20%;
+    border-radius: 4%;
+}
+.Btn{
+    font-size: 15px;
+    border-radius: 4%;
+    background-color: #d3ad81;
+    margin-top: 40%;
+    margin-left: 40%;
+}
